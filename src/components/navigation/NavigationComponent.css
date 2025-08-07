@@ -1,0 +1,11 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
