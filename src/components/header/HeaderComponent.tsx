@@ -4,7 +4,7 @@ import './HeaderComponent.css';
 const HeaderComponent: React.FC = () => {
   return (
     <header className="header-container">
-      <h1>Travel Booking</h1>
+      <h1>Travel</h1>
       <NavigationComponent />
     </header>
   );

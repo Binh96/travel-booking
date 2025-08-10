@@ -1,11 +1,22 @@
 .navigation {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .navigation ul {
   list-style: none;
   display: flex;
+  align-items: center;
+}
+
+.navigation-item {
+  padding: 10px 25px;
+}
+
+.navigation-item-link {
+  text-decoration: none;
+  color: #212832;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Google sans';
 }
