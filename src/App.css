@@ -1,7 +1,28 @@
 @font-face {
-  font-family: 'Google sans';
-  src: url('/public/font/GoogleSansCode-VariableFont_wght.ttf');
+  font-family: 'Google sans', 'Poppins';
+  src: url('/public/font/googlesan/GoogleSansCode-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:url('/public/font/poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/public/font/poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Volkhov';
+  src: url('/public/font/volkhov/Volkhov-Bold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }
 
