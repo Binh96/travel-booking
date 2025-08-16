@@ -7,6 +7,7 @@ interface Props {
   height?: string;
   fontSize?: string;
   fontWeight?: string;
+  fontFamily?: string;
   borderRadius?: string;
   padding?: string;
   margin?: string;
@@ -16,13 +17,14 @@ interface Props {
 
 const ButtonComponent: React.FC<Props> = ({
   label,
-  border = '1px solid #ccc',
-  backgroundColor = '#f0f0f0',
+  border = '',
+  backgroundColor = '',
   color = '#000',
-  width = '100px',
-  height = '40px',
+  width = '',
+  height = '',
   fontSize = '16px',
   fontWeight = 'normal',
+  fontFamily = 'Google Sans',
   borderRadius = '4px',
   padding = '10px',
   margin = '5px',
@@ -43,6 +45,7 @@ const ButtonComponent: React.FC<Props> = ({
         borderRadius,
         padding,
         margin,
+        fontFamily
       }}
     >
       {label}
