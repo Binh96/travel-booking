@@ -4,9 +4,24 @@
 }
 
 .category-header-container h1 {
+  font-size: 18px;
   text-align: center;
+  font-family: 'Poppins';
+  font-weight: 700;
+  color: #5E6282;
 }
 
 .category-header-container p {
   text-align: center;
+  font-size: 50px;
+  font-family: "Volkhov";
+  color: #14183E;
+  margin-top: 10px;
+  line-height: 50px;
+}
+
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
