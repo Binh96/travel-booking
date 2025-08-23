@@ -20,6 +20,11 @@
   line-height: 50px;
 }
 
+.category-item-description {
+  margin-top: 15px;
+  width: 181px;
+}
+
 .category-container {
   display: flex;
   justify-content: space-between;
