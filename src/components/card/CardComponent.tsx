@@ -7,12 +7,13 @@ interface CardComponentProps {
   padding?: string;
   textAlign?: 'left' | 'right' | 'center' | 'justify' | 'start' | 'end';
   children?: React.ReactNode;
+  className?: string;
 }
 
 export default function CardComponent(props: CardComponentProps) {
   return (
     <div 
-      className="card" 
+      className={`card ${props.className}`}
       key={props.id}
       style={{
         border: props.border,
