@@ -1,0 +1,70 @@
+.top-selling-header-container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.top-selling-header-container h1 {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 700;
+  color: #5E6282;
+}
+
+.top-selling-header-container p {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Volkhov";
+  color: #14183E;
+  margin-top: 10px;
+  line-height: 50px;
+}
+
+.top-selling-item-description {
+  margin-top: 15px;
+  width: 181px;
+}
+
+.top-selling-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px 30px;
+  justify-content: space-around;
+}
+
+.destination-item {
+  /* width: 100%; */
+  position: relative;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.destination-item .destination-desc {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  padding: 27px 20px 42px 25px;
+}
+
+.destination-place {
+  margin-bottom: 3px;
+}
+
+.place-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destination-date {
+  display: flex;
+  align-items: center;
+}
+
+.destination-date img {
+  width: 20px;
+  height: 20px;
+  margin-right: 14px;
+}

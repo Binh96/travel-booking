@@ -1,6 +1,7 @@
 import CategoryComponent from '../components/category/CategoryComponent';
 import HeaderComponent from '../components/header/HeaderComponent';
 import HeroComponent from '../components/hero/HeroComponent';
+import TopSellingComponent from '../components/top-selling/TopSellingComponent';
 import './MainPageComponent.css';
 
 const MainPageComponent = () => {
@@ -13,6 +14,7 @@ const MainPageComponent = () => {
         <HeaderComponent />
         <HeroComponent />
         <CategoryComponent />
+        <TopSellingComponent />
       </div>
     </div>
   );
