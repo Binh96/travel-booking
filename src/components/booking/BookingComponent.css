@@ -1,0 +1,157 @@
+.booking-container {
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+
+.booking-left {
+  margin-right: 45px;
+}
+
+.booking-right {
+  position: relative;
+}
+
+.booking-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5E6282;
+  margin-bottom: 15px;
+}
+
+.booking-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #14183E;
+  font-family: 'Volkhov', serif;
+  margin-bottom: 40px;
+}
+
+.steps-list {
+  list-style: none;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.step-item img{
+  width: 47px;
+  height: 47px;
+  margin-right: 21px;
+}
+
+.step-title {
+  color: #5E6282;
+  font-size: 16px;  
+  line-height: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.step-desc {
+  max-width: 327px;
+  color: #5E6282;
+  font-size: 13px;  
+  line-height: 16px;
+  font-weight: normal;
+}
+
+.trip-content {
+  margin-top: 26px;
+}
+
+.trip-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  font-family: 'Poppins';
+}
+
+.trip-meta {
+  font-size: 16px;
+  font-family: 'Poppins';
+  color: #84829A;
+}
+
+.trip-icons {
+  display: flex;
+  align-items: center;
+}
+
+.trip-icons img {
+  width: 36px;
+  height: 36px;
+  margin-right: 17px;
+}
+
+.rectangle-card {
+  padding: 20px 25px 24px 25px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 130px -60px 105px #59B1E6;
+}
+
+.ongoing-card {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 18px;
+  position: absolute;
+  bottom: 46px;
+  right: -58px;
+  padding: 12px 20px;
+}
+
+.ongoing-card img {
+  margin-top: 8px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 11px;
+}
+
+.ongoing-label {
+  font-size: 14px;
+  color: #5E6282;
+  margin: 0;
+}
+
+.ongoing-card h5 {
+  font-size: 18px;
+  color: #14183E;
+}
+
+.progress-text {
+  font-size: 14px;
+  color: #080809;
+  margin: 0;
+}
+
+.progress-text span{
+  font-family: "Poppins";
+  font-size: 14px;
+  color: #8A79DF;
+  margin: 0;
+}
+
+.trip-footer {
+  margin-top: 20px;
+}
+
+.trip-footer span {
+  font-size: 14px;  
+  color: #5E6282;
+  margin: 0;
+}
+
+.trip-footer img{
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
