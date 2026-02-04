@@ -17,7 +17,7 @@ export default function BookingComponent() {
         <div className="steps">
           <ul className="steps-list">
             <li className="step-item">
-              <img src="/image/Rectangle 21.png" alt="" />
+              <img src={process.env.PUBLIC_URL + "/image/Rectangle 21.png"} alt="" />
               <div className="step-content">
                 <h4 className="step-title">Choose Destination</h4>
                 <p className="step-desc">
@@ -26,7 +26,7 @@ export default function BookingComponent() {
               </div>
             </li>
             <li className="step-item">
-              <img src="/image/Rectangle 22.png" alt="" />
+              <img src={process.env.PUBLIC_URL + "/image/Rectangle 22.png"} alt="" />
               <div className="step-content">
                 <h4 className="step-title">Make Payment</h4>
                 <p className="step-desc">
@@ -35,7 +35,7 @@ export default function BookingComponent() {
               </div>
             </li>
             <li className="step-item">
-              <img src="/image/Rectangle 23.png" alt="" />
+              <img src={process.env.PUBLIC_URL + "/image/Rectangle 23.png"} alt="" />
               <div className="step-content">
                 <h4 className="step-title">Reach Airport on Selected Date</h4>
                 <p className="step-desc">
@@ -50,20 +50,20 @@ export default function BookingComponent() {
       {/* RIGHT */}
       <div className="booking-right">
         <CardComponent id={1} className="rectangle-card">
-          <img src="/image/Rectangle 17.png" alt="" />
+          <img src={process.env.PUBLIC_URL + "/image/Rectangle 17.png"} alt="" />
           <div className="trip-content">
             <h4>Trip To Greece</h4>
             <p className="trip-meta">14–29 June | by Robbin jr</p>
 
             <div className="trip-icons">
-              <img src="/image/LEAF.png" alt="" />
-              <img src="/image/map icon.png" alt="" />
-              <img src="/image/send.png" alt="" />
+              <img src={process.env.PUBLIC_URL + "/image/LEAF.png"} alt="" />
+              <img src={process.env.PUBLIC_URL + "/image/map icon.png"} alt="" />
+              <img src={process.env.PUBLIC_URL + "/image/send.png"} alt="" />
             </div>
 
             <div className="trip-footer">
               <span>
-                <img src="/image/vector.png" alt="" />
+                <img src={process.env.PUBLIC_URL + "/image/vector.png"} alt="" />
                  24 people going</span>
               <span>♡</span>
             </div>
@@ -73,7 +73,7 @@ export default function BookingComponent() {
         {/* Floating card */}
         <div className="ongoing-card">
           <div className="ongoing-left">
-            <img src="/image/image_32.png" alt="" />
+            <img src={process.env.PUBLIC_URL + "/image/image_32.png"} alt="" />
           </div>
           <div className="ongoing-right">
             <p className="ongoing-label">Ongoing</p>

@@ -9,7 +9,7 @@ const MainPageComponent = () => {
   return (
     <div className="main-container">
       <div className="decore-wrapper">
-        <img src="/image/decore.png" alt="" />
+        <img src={process.env.PUBLIC_URL + "/image/decore.png"} alt="" />
       </div>
       <div className="inner-wrapper">
         <HeaderComponent />

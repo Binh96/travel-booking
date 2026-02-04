@@ -47,7 +47,7 @@ const HeroComponent = () => {
         </div>
       </div>
       <div className="hero-content-right">
-        <img src="/image/Traveller 1.png" alt="" />
+        <img src={process.env.PUBLIC_URL + "/image/Traveller 1.png"} alt="" />
       </div>
     </div>
   );

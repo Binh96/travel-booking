@@ -62,7 +62,7 @@ export default function CategoryComponent() {
             >
               {category.id !== 2 ? (<div style={{ height: "40px" }}></div>) : ("")}
               <img 
-                src={category.path} 
+                src={process.env.PUBLIC_URL + category.path} 
                 alt="" 
                 style={category.style} 
               />

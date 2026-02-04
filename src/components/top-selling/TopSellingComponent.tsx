@@ -46,7 +46,7 @@ export default function TopSellingComponent() {
               boxShadow="0px 22px 17px rgba(0, 0, 0, 0.06)"
             >
               <img 
-                src={category.path} 
+                src={process.env.PUBLIC_URL + category.path} 
                 alt=""
                 className="destination-image"
               />
@@ -56,7 +56,7 @@ export default function TopSellingComponent() {
                   <p className="destination-price">{category.desc.price}</p>
                 </div>
                 <p className="destination-date">
-                  <img src="/image/navigation 1.png" alt="" />
+                  <img src={process.env.PUBLIC_URL + "/image/navigation 1.png"} alt="" />
                   {category.desc.date}
                 </p>
               </div>
